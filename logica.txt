@@ -1,17 +1,3 @@
-RESUMEN DE LA METODOLOGÍA:
-==========================
-1. LEE y subraya: entradas, salidas, palabras clave
-2. ESCRIBE en español simple qué hacer
-3. IDENTIFICA herramientas: arreglos, ciclos, condicionales
-4. CONSTRUYE de a poco, fuera de función
-5. PRUEBA cada paso con console.log()
-6. AGRUPA en función cuando funcione
-7. PRUEBA la función
-
-
-
-
-
 
 Ejercicio 1
 
@@ -40,6 +26,52 @@ mostrar resultado
 
 
 ejecircio 2
+// ====================================================
+// METODOLOGÍA PARA RESOLVER EJERCICIOS - EJERCICIO 2
+// ====================================================
+
+/* 
+PASO 1: LEE Y SUBRAYA LO IMPORTANTE
+-----------------------------------
+"Sistema de AUTENTICACIÓN"
+"DOS condiciones":
+   1. Mayor de edad (≥18)
+   2. Contraseña válida (comparación exacta)
+   
+Entradas: edad, contraseña
+Salidas: mensaje de acceso concedido o denegado
+
+*/
+
+/* 
+PASO 2: ESCRIBE EN PALABRAS SIMPLES QUÉ HACER
+----------------------------------------------
+1. Tengo una contraseña correcta guardada
+2. Pedir la edad del usuario
+3. Pedir la contraseña del usuario
+4. Verificar si edad >= 18 Y contraseña es correcta
+5. Si AMBAS son correctas → "Acceso concedido"
+6. Si NO → decir por qué fue rechazado
+
+*/
+
+/* 
+PASO 3: IDENTIFICA QUÉ NECESITAS
+---------------------------------
+- VARIABLES para edad y contraseña
+- CONDICIONALES (if) para verificar
+- OPERADORES LÓGICOS (&&) para "Y"
+- COMPARACIÓN ESTRICTA (===) para contraseña
+- FUNCIÓN EXPRESADA (lo pide el ejercicio)
+
+*/
+
+/* 
+PASO 4: CONSTRUYE DE A POCO (sin función primero)
+--------------------------------------------------
+*/
+
+
 
 
 
