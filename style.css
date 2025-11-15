@@ -1,31 +1,66 @@
+
+/* Estilo para todo el cuerpo de la página */
 body {
+    /* Define el tipo de letra para todo el texto. Si no encuentra la primera, usa la siguiente. */
     font-family: sans-serif;
+    /* Agrega un espacio (relleno) de 20 píxeles alrededor de todo el contenido para que no esté pegado a los bordes. */
     padding: 20px;
 }
 
+/* Estilo para los títulos h1 y h2 */
 h1, h2 {
+    /* Agrega un margen (espacio) de 20 píxeles arriba del título. */
     margin-top: 20px;
+    /* Agrega un margen de 10 píxeles debajo del título. */
     margin-bottom: 10px;
 }
 
+/* Estilo para las cajas que contienen cada ejercicio */
 .exercise {
+    /* Dibuja un borde de 1 píxel de grosor, sólido y de color gris claro alrededor de la caja. */
     border: 1px solid #ccc;
+    /* Agrega un relleno de 15 píxeles dentro de la caja, para que el contenido no se pegue al borde. */
     padding: 15px;
+    /* Agrega un margen de 20 píxeles debajo de cada caja de ejercicio para separarlas. */
     margin-bottom: 20px;
 }
 
+/* Estilo para los campos de texto donde el usuario escribe */
 input {
+    /* Agrega un relleno de 5 píxeles dentro del campo de texto para que el texto no se pegue a los bordes. */
     padding: 5px;
+    /* Agrega un margen de 10 píxeles a la derecha del campo de texto para separarlo de lo que venga después (como un botón). */
     margin-right: 10px;
 }
 
+/* Estilo para los botones */
 button {
+    /* Agrega un relleno de 5 píxeles arriba/abajo y 10 píxeles a los lados para que el botón sea más grande que el texto. */
     padding: 5px 10px;
 }
 
+/* Estilo para las cajas donde se muestran los resultados */
 .output {
+    /* Agrega un margen de 10 píxeles arriba para separar el resultado del botón. */
     margin-top: 10px;
+    /* Agrega un relleno de 10 píxeles adentro para que el texto del resultado no se pegue a los bordes. */
     padding: 10px;
+    /* Pone un color de fondo gris claro a la caja de resultado. */
     background-color: #f0f0f0;
+    /* Asegura que la caja tenga una altura mínima de 30 píxeles, incluso si está vacía. */
     min-height: 30px;
+}
+
+/* Estilo para los párrafos (<p>) que están DENTRO de una caja de resultado */
+.output p {
+    /* Define un margen de 5 píxeles arriba/abajo y 0 a los lados para los párrafos. */
+    margin: 5px 0;
+    /* Cambia el color del texto a un gris oscuro. */
+    color: #333;
+}
+
+/* Estilo para el texto en negrita (<strong>) que está DENTRO de una caja de resultado */
+.output strong {
+    /* Cambia el color del texto en negrita a un tono azul/violeta para resaltarlo. */
+    color: #667eea;
 }

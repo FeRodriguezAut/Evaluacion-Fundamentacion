@@ -1,35 +1,39 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluación JavaScript - SENA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Evaluación Fundamentación JavaScript</h1>
-    <p><strong>Aprendiz:</strong> Fernando Jose Imbett Vides</p>
-    <p><strong>Ficha:</strong> 2977523</p>
 
+
+
+<!DOCTYPE html> <!-- Esta línea le dice al navegador que este documento es una página web moderna (HTML5). -->
+<html lang="es"> <!-- Aquí empieza la página web. 'lang="es"' le dice al navegador que el idioma principal es español. -->
+
+<head> <!-- La sección 'head' (cabeza) contiene información sobre la página que no se ve directamente. -->
+    <meta charset="UTF-8"> <!-- Esto asegura que los caracteres especiales como 'ñ' o tildes se vean correctamente. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página se vea bien en celulares, ajustando el ancho al del dispositivo. -->
+    <title>Evaluación JavaScript - SENA</title> <!-- Este es el título que aparece en la pestaña del navegador. -->
+    <link rel="stylesheet" href="style.css"> <!-- Esta línea conecta la página con un archivo de estilos (CSS) para darle diseño y colores. -->
+</head>
+
+<body> <!-- El 'body' (cuerpo) es donde va todo el contenido visible de la página: textos, botones, imágenes, etc. -->
+
+    
     <hr>
 
     <!-- Ejercicio 1: Promedio de Notas -->
+    <!-- 'div' es una caja para agrupar elementos. 'class="exercise"' le da un estilo definido en el archivo CSS. -->
     <div class="exercise">
-        <h2>1. Promedio de Notas</h2>
-        <label>Ingrese notas separadas por comas:</label>
-        <input type="text" id="notas" placeholder="4.5, 3.8, 5.0">
-        <button id="btn-1">Calcular</button>
-        <div class="output" id="output-1"></div>
+        <h2>1. Promedio de Notas</h2> <!-- 'h2' es un título de sección. -->
+        <label>Ingrese notas separadas por comas:</label> <!-- 'label' es una etiqueta de texto para un campo de entrada. -->
+        <input type="text" id="notas" placeholder="4.5, 3.8, 5.0"> <!-- 'input' es un campo donde el usuario puede escribir. 'id="notas"' es su identificador único. -->
+        <button id="btn-1">Calcular</button> <!-- 'button' es un botón. 'id="btn-1"' es su identificador. -->
+        <div class="output" id="output-1"></div> <!-- Esta caja mostrará el resultado del cálculo. -->
     </div>
 
     <!-- Ejercicio 2: Validador de Acceso -->
     <div class="exercise">
         <h2>2. Validador de Acceso</h2>
         <label>Edad:</label>
-        <input type="number" id="edad" placeholder="Ingrese su edad">
-        <br><br>
+        <input type="number" id="edad" placeholder="Ingrese su edad"> <!-- 'type="number"' hace que solo se puedan poner números. -->
+        <br><br> <!-- '<br>' crea un salto de línea, como presionar "Enter". -->
         <label>Contraseña:</label>
-        <input type="password" id="password" placeholder="Ingrese la contraseña">
+        <input type="password" id="password" placeholder="Ingrese la contraseña"> <!-- 'type="password"' oculta lo que se escribe. -->
         <button id="btn-2">Verificar</button>
         <div class="output" id="output-2"></div>
     </div>
@@ -46,7 +50,7 @@
     <!-- Ejercicio 4: Cálculo de Impuestos -->
     <div class="exercise">
         <h2>4. Cálculo de Impuestos</h2>
-        <p>Se usarán datos de ejemplo para 3 productos.</p>
+        <p>Se usarán datos de ejemplo para 3 productos.</p> <!-- 'p' es un párrafo de texto normal. -->
         <button id="btn-4">Calcular Impuesto</button>
         <div class="output" id="output-4"></div>
     </div>
@@ -61,7 +65,10 @@
     </div>
 
     <!-- Script principal que carga todo como módulos -->
+    <!-- 'type="module"' le dice al navegador que este archivo puede importar (usar) código de otros archivos. -->
+    <!-- 'src="app.js"' especifica cuál es el archivo principal de JavaScript que controlará la página. -->
     <script type="module" src="app.js"></script>
     
-</body>
-</html>
+</body> 
+
+</html> 
