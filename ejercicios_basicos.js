@@ -30,7 +30,6 @@ function calcularPromedio(notas) {
 }
 
 // Ejemplo de uso del Ejercicio 1
-console.log("=== EJERCICIO 1 ===");
 let cantidadNotas = 5;
 let notas = [4.5, 3.8, 4.2, 3.9, 4.0];
 let resultado1 = calcularPromedio(notas);

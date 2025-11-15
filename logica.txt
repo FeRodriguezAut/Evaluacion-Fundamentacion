@@ -1,3 +1,18 @@
+RESUMEN DE LA METODOLOGÍA:
+==========================
+1. LEE y subraya: entradas, salidas, palabras clave
+2. ESCRIBE en español simple qué hacer
+3. IDENTIFICA herramientas: arreglos, ciclos, condicionales
+4. CONSTRUYE de a poco, fuera de función
+5. PRUEBA cada paso con console.log()
+6. AGRUPA en función cuando funcione
+7. PRUEBA la función
+
+
+
+
+
+
 Ejercicio 1
 
 que me piden
