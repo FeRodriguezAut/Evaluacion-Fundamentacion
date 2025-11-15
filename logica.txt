@@ -1,0 +1,34 @@
+Ejercicio 1
+
+que me piden
+
+saber las calificaciones y desea saber su rendimiento laboral 
+ingresar las notas obtenidad y calcular el promedio 
+evaluar si el rendimiento es medio bajo o alto 
+
+datos de entrada 
+
+cantidad de notas 
+
+promedio categoria
+
+
+pasos 
+
+pedir cuantas nota son
+pedir cada nota 
+sumar todas las notas
+realizar el promedio (sumas y divir por la cantidad )
+catalogar si es alto medio o bajo 
+mostrar resultado 
+
+
+
+ejecircio 2
+
+
+
+
+
+
+
